@@ -140,3 +140,5 @@ print("Best Year:", sales_yearly.idxmax())
 # ==========================================
 #               END
 # ==========================================
+
+print("PROJECT COMPLETED")
