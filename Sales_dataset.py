@@ -1,29 +1,3 @@
-# import pandas as pd
-# df = pd.read_csv("C:/Users/VIJAY/Desktop/VJ/PROJECTS/sales_project/Sample - Superstore.csv")
-# df["Order Date"]=pd.to_datetime(df["Order Date"],errors="coerce") # here i have converts string to date dataype
-# df["Ship Date"]=pd.to_datetime(df["Ship Date"],errors="coerce") # here also str to date
-# # print(df.head()) # used for first frive values in the daset
-# # print(df.info()) # decsribe the dateset
-# # # print(df.shape) # columns and rowws
-# # print(df.isnull().sum()) # here i have check null value , no null values in this dataset
-# # print(df.duplicated().sum())  # here i have check the duplicate values in the dataset there is no duplicate values 
-# df["sales"]=pd.to_numeric(df["Sales"],errors="coerce") # str to numaric 
-# df["Quanity"]=pd.to_numeric(df["Quantity"],errors="coerce") # str to numaric 
-# df["Profi"]=pd.to_numeric(df["Profit"],errors="coerce") # str to numaric 
-# df["Discount"]=pd.to_numeric(df["Discount"],errors="coerce") # str to numaric 
-# print(df)
-# print(df.describe()) # infromation about overall summaru like sum(),max(),min(),averge(mean()),...........std,%,count
-# print(df["Region"].unique()) # here just return only unique values in the region column
-# print(df["Region"].value_counts()) # here count how many time a specific value occre on the particlar column in the database by using value_counts
-# sales_by_year=df.groupby("Region")["Sales"].sum()
-# profit_by_state=df.groupby("State")["Profit"].max()
-# print(sales_by_year)
-# print(profit_by_state)
-
-
-
-
-
 #---------------------- DATASET CLEANING USING PYTHON PANDAS ------------------------------------ 
 
 # import pandas as pd
